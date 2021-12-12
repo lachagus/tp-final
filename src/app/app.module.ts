@@ -8,6 +8,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchfieldComponent } from './components/searchfield/searchfield.component';
 import { DetailsComponent } from './components/details/details.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { IndicacionesComponent } from './components/indicaciones/indicaciones.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CardsComponent } from './components/cards/cards.component';
     NavbarComponent,
     SearchfieldComponent,
     DetailsComponent,
-    CardsComponent
+    CardsComponent,
+    IndicacionesComponent,
+    
   ],
   imports: [
     BrowserModule,

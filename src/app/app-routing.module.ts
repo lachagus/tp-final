@@ -6,12 +6,19 @@ import { DetailsComponent } from './components/details/details.component';
 const routes: Routes = [
   
   {
-    path: 'details',
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+
+
+  {
+    path: 'home',
     component: CardsComponent
   },
   
   {
-    path: 'details',
+    path: 'details/:codigo',
     component: DetailsComponent
   },
 

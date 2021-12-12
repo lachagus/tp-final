@@ -1,5 +1,5 @@
-.movies{
-    &-container {
+.services-container{
+
         padding: 1.5rem;
         display: grid;
         grid-template-columns: 1fr;
@@ -12,5 +12,4 @@
         @media (min-width: 992px) { 
             grid-template-columns: repeat(3, 1fr);
         }
-    }  
-} 
+    }
